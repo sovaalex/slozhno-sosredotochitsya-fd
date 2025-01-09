@@ -1,4 +1,29 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+:root {
+  --bg-color: #000028;
+  --text-color: #f1b2ce;
+  --accent-color: #ff0070;
+  --focus-color: #db00ff;
+  --title-color: #ff0070;
+  --decor-color: #000028;
+  --title-size: 18px;
+  --text-size: 18px;
+  --title-weight: 700;
+  --text-weight: 400;
+  --inline-padding: 10px;
+  --section-gap: 40px;
+  --focus-font-size: 116px;
+}
+
+@media (width >= 768px) {
+  :root {
+    --inline-padding: 20px;
+    --section-gap: 60px;
+    --focus-font-size: 120px;
+  }
+}
+
+@media (width >= 1024px) {
+  :root {
+    --focus-font-size: 157px;
+  }
+}
