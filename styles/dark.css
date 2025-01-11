@@ -5,15 +5,8 @@
   --focus-color: #db00ff;
   --title-color: #ff0070;
   --decor-color: #000028;
+  --button-hover-color: rgb(255, 0, 112, 0.4);
+  --background-image: url(../images/cover-image-dark.png);
+  --record-display: flex;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root(.header__theme-menu-button_type_dark.header__theme-menu-button_active) {
-    --bg-color: #000028;
-    --text-color: #f1b2ce;
-    --accent-color: #ff0070;
-    --focus-color: #db00ff;
-    --title-color: #ff0070;
-    --decor-color: #000028;
-  }
-}
