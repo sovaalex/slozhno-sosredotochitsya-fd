@@ -7,6 +7,7 @@
   display: grid;
   padding: var(--inline-padding);
   block-size: 100vh;
+  min-block-size: ;
   background-image: var(--background-image);
   background-position: center;
   background-size: cover;

@@ -6,7 +6,7 @@
     --focus-color: #ffc2e6;
     --title-color: #353430;
     --decor-color: #353430;
-    --button-hover-color: rgb(53, 52, 48, 0.4);
+    --button-hover-color: rgb(50, 49, 45, 0.4);
     --background-image: url(../images/cover-image-light.png);
     --record-display: none;
   }
@@ -19,6 +19,7 @@
   --focus-color: #ffc2e6;
   --title-color: #353430;
   --decor-color: #353430;
+  --button-hover-color: rgb(50, 49, 45, 0.4);
   --background-image: url(../images/cover-image-light.png);
   --record-display: none;
 }
