@@ -8,8 +8,10 @@
   --button-hover-color: rgb(255, 0, 112, 0.4);
   --title-size: 18px;
   --text-size: 18px;
-  --title-weight: 700;
-  --text-weight: 400;
+  --bold-weight: 700;
+  --regular-weight: 400;
+  --focus-sign-line-height: 0.825em;
+  --line-height: 1.3em;
   --inline-padding: 10px;
   --section-padding: 40px;
   --focus-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);

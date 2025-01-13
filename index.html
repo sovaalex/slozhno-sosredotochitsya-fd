@@ -19,9 +19,7 @@
   </head>
   <body class="page">
     <header class="header decorated-zone">
-      <div class="record__decor" aria-hidden="true">
-        <span class="record__decor-text">rec</span>
-        <span class="record__pseudo-element"></span>
+        <div class="decor-element" aria-hidden="true">rec</div>
       </div>
       <nav class="header__theme-menu">
         <ul class="header__theme-menu-list">
@@ -56,7 +54,7 @@
       </p>
     </header>
     <main class="content">
-      <section class="article-section special-article">
+      <section class="article-section">
         <h2 class="section-title">Почему сосредоточиться так сложно</h2>
           <article class="article">
             <h3 class="article-title text-decor">Многозадачность</h3>
@@ -65,7 +63,7 @@
               важные. Где же легендарная многозадачность, когда она так нужна
               вам (и всем нанимающим менеджерам этого мира)? А дело в том, что
               её просто не существует. Исследователи
-              <a class="link" target="_blank" href="https://www.sciencedirect.com/science/article/abs/pii/S0272494415000328">выяснили</a>, что мозгу тяжело
+              <a class="link" target="_blank" href="https://dana.org/article/multicosts-of-multitasking/">выяснили</a>, что мозгу тяжело
               концентрироваться даже на двух делах одновременно. А когда в поле
               внимания попадает несколько важных задач, организм паникует и
               выделяет кортизол и адреналин — «гормоны стресса». Из-за этого мы
@@ -88,7 +86,6 @@
       </section>
       <section class="article-section">
           <h2 class="section-title">Что снижает концентрацию внимания?</h2>
-          <div class="row-wrapper">
             <article class="article">
               <h3 class="article-title text-decor">Многозадачность</h3>
               <p class="article-text">
@@ -124,18 +121,17 @@
                 работе.
               </p>
             </article>
-          </div>
       </section>
-      <section class="article-section special-article">
+      <section class="article-section">
         <h2 class="section-title">
           Как концентрироваться лучше, чем золотая рыбка (то есть дольше трёх
           секунд)
         </h2>
-        <h3 class="article-special-title text-decor">
+        <h3 class="article-title text-decor">
           5 простых (на самом деле не очень) советов
         </h3>
           <article class="article">
-            <h4 class="article-title text-decor">Представьте небо и облака</h4>
+            <h4 class="article-subtitle text-decor">Представьте небо и облака</h4>
             <p class="article-text">
               Или листья в ручье. Тут дело в лёгкой медитации, которая помогает
               успокоиться. Ведь часто именно тревожные мысли о сложных задачах
@@ -148,7 +144,7 @@
             </p>
           </article>
           <article class="article">
-            <h4 class="article-title text-decor">Включите музыку</h4>
+            <h4 class="article-subtitle text-decor">Включите музыку</h4>
             <p class="article-text">
               Но не любую, и не любимую. Любимая может быть связана с сильными
               положительными эмоциями, которые тоже очень сильно отвлекают.
@@ -157,10 +153,10 @@
             </p>
           </article>
           <article class="article">
-            <h4 class="article-title text-decor">Прогуляйтесь</h4>
+            <h4 class="article-subtitle text-decor">Прогуляйтесь</h4>
             <p class="article-text">
               Или даже пробегитесь. Лучше найти парк или лес: один эксперимент
-              <a class="link" target="_blank" href="#0">показал</a>, что созерцание природы
+              <a class="link" target="_blank" href="https://www.sciencedirect.com/science/article/abs/pii/S0272494415000328">показал</a>, что созерцание природы
               повышает концентрацию, в то время как после просмотра городских
               пейзажей она наоборот понижается. Можно совместить прогулку с
               физическими упражнениями или бегом — так в мозг поступит ещё
@@ -169,7 +165,7 @@
             </p>
           </article>
           <article class="article">
-            <h4 class="article-title text-decor">Хорошо ешьте</h4>
+            <h4 class="article-subtitle text-decor">Хорошо ешьте</h4>
             <p class="article-text">
               Мы — не ваша бабушка, но это правда важно. Выбирайте продукты,
               которые препятствуют резким скачкам сахара в крови. Например, с
@@ -178,7 +174,7 @@
             </p>
           </article>
           <article class="article">
-            <h4 class="article-title text-decor">Читайте</h4>
+            <h4 class="article-subtitle text-decor">Читайте</h4>
             <p class="article-text">
               Настоящие бумажные книги. Это правда помогает с концентрацией:
               чтобы прочитать пост в соцсети, достаточно нескольких минут или
@@ -187,51 +183,41 @@
             </p>
           </article>
       </section>
-      <section class="article-section">
+      <section class="gallery-section">
         <h3 class="article-title text-decor gallery-title">
           А можно в картинках?
         </h3>
         <div class="gallery">
-          <div class="img-wrapper grid__image">
-            <img
+            <img class="gallery-image"
               src="./images/sunset.png"
               alt="Морской пляж на фоне гор и закатного неба"
               loading="lazy"
             />
-          </div>
-          <div class="img-wrapper grid__image">
-            <img
+            <img class="gallery-image"
               src="./images/ice-cream.png"
               alt="шарики мороженного с кошачьими ушками и улыбающимися лицами"
               loading="lazy"
             />
-          </div>
-          <div class="img-wrapper grid__image">
-            <img
+            <img class="gallery-image"
               src="./images/tape.png"
               alt="аудиокассета окруженная иконками в виде файлов"
               loading="lazy"
             />
-          </div>
-          <div class="img-wrapper grid__image">
-            <img
+            <img class="gallery-image"
               src="./images/books.png"
               alt="стопка книг с чашкой наверху"
               loading="lazy"
             />
-          </div>
-          <div class="img-wrapper grid__image">
-            <img
+            <img class="gallery-image"
               src="./images/street.png"
               alt="дорога города окруженная домами"
               loading="lazy"
             />
-          </div>
         </div>
       </section>
     </main>
     <footer class="footer decorated-zone">
-      <p class="focus-sign">focus</p>
+      <h2 class="focus-sign">focus</h2>
     </footer>
   </body>
 </html>
