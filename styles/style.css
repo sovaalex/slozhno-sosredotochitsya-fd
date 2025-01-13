@@ -216,7 +216,7 @@
   line-height: var(--focus-sign-line-height);
 }
 
- .decorated-zone::before {
+.decorated-zone::before {
   position: absolute;
   content: "";
   top: var(--inline-padding);
@@ -239,7 +239,6 @@
   border-inline-start: 1px solid var(--title-color);
   border-block-end: 1px solid var(--title-color);
 }
-
 
 @media (width >= 768px) {
   .no-focus-sign {
@@ -338,6 +337,6 @@
   }
 
   .section-title {
-  display: block;
+    display: block;
   }
 }
