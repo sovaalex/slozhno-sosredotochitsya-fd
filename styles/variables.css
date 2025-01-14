@@ -13,6 +13,7 @@
   --focus-sign-line-height: 0.825em;
   --line-height: 1.3em;
   --inline-padding: 10px;
+  --section-min-block-size: 668px;
   --section-padding: 40px;
   --focus-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --background-image: url(../images/cover-image-dark.png);
@@ -24,5 +25,12 @@
     --inline-padding: 20px;
     --section-padding: 60px;
     --focus-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    --section-min-block-size: 1024px;
+  }
+}
+
+@media (width >= 1024px) {
+  :root {
+    --section-min-block-size: 768px;
   }
 }
